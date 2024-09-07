@@ -2,6 +2,7 @@ import keeper from "./Keeper.png";
 import gmovies from "./Gmovies.png";
 import fastpizza from "./fastpizza.png";
 import mplayer from "./musicplayer2.png";
+import faraway from "./faraway.png";
 
 export const projectDetails = {
   keeper: {
@@ -23,5 +24,10 @@ export const projectDetails = {
     source: mplayer,
     projectlink: "https://github.com/Abhi005shek/MusicPlayer",
     demo: "",
+  },
+  faraway: {
+    source: faraway,
+    projectlink: "https://github.com/Abhi005shek/FarAway",
+    demo: "https://abhi005shek.github.io/FarAway/",
   },
 };

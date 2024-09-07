@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+label {
+  cursor: url("./assets/images/cursor50.svg"), auto;
+}
+
+button,
+a,
+li,
+svg,
+.themeIcon {
+  cursor: url("./assets/images/hand-cursor.svg"), auto;
+}
+
+input,
+textarea {
+  cursor: url("./assets/images/text-cursor.png"), auto;
+}
+
+.themeIcon {
+  animation: box 5s infinite linear;
+}
+
+@keyframes box {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

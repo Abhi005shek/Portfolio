@@ -7,9 +7,10 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
+// #2522323
 function App() {
   return (
-    <div className="selection:bg-primary selection:text-white smooth-scroll">
+    <div className="selection:bg-primary selection:text-white smooth-scroll text-black dark:text-white bg-[#f2f2f2] dark:bg-[#252323]">
       <Header />
       <Hero />
       <About />

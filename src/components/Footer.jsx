@@ -3,7 +3,7 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 function Footer() {
   return (
-    <div className="shadow-lg flex flex-col items-center justify-center border-2 mt-40 p-6 min-h-28 font-poppins">
+    <div className="shadow-lg flex flex-col items-center justify-center mt-40 p-6 min-h-28 font-poppins">
       <div className="text-3xl">
         <p className="flex gap-5 mb-4">
           <span>
@@ -21,8 +21,9 @@ function Footer() {
           </span>
         </p>
       </div>
-      <p className="text-center md:text-xl font-semibold">
-        Created By <span className="text-primary">Abhishek Vishwakarma</span>
+      <p className="text-center md:text-xl font-mono font-semibold">
+        Created By{" "}
+        <span className="text-primary font-bangers">Abhishek Vishwakarma</span>
       </p>
     </div>
   );

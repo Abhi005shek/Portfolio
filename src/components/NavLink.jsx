@@ -6,7 +6,7 @@ function NavLink({ children, href }) {
   }
 
   return (
-    <li className="duration-300 cursor-pointer hover:text-[#0ca678]">
+    <li className="font-mono duration-300 cursor-pointer hover:bg-[#0ca678] hover:text-white rounded px-1">
       <button onClick={() => scrollHandler(href)}>{children}</button>
     </li>
   );
