@@ -16,6 +16,7 @@ import {
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
+  SiMui
 } from "react-icons/si";
 // import { FaJava } from "react-icons/fa6";
 import IconCard from "./iconCard";
@@ -100,6 +101,15 @@ function Skills() {
 
           <IconCard name={"Postman"}>
             <SiPostman size={70} color="orange" />
+          </IconCard>
+
+          <IconCard name={"React Native"}>
+            <IoLogoReact size={70} color="skyblue" />
+          </IconCard>
+
+
+          <IconCard name={"Material UI"}>
+          <SiMui  size={70} color="blue"/>
           </IconCard>
 
           {/*  */}
