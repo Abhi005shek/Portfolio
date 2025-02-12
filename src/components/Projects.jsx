@@ -39,6 +39,18 @@ function Projects() {
           A todo app for trip where you can add items in your list for your next
           trip, check items that you've already packed, and much more.
         </ProjectCard>
+
+        <ProjectCard title={"Vaartalaap"} {...projectDetails.vaartalap}>
+        Made a responsive real-time chatting app known as "Vaartalaap" using Reactjs, Material Ui and Socket.io
+        </ProjectCard>
+
+        <ProjectCard title="PokeBall App" {...projectDetails.pokeball}>
+          "PokémonBall is a mobile app built with React Native and Expo,
+          offering a simple and seamless way to explore detailed information
+          about Pokémon. With an intuitive interface and smooth navigation,
+          users can easily access key details like stats, abilities, and
+          evolutions, making it a go-to tool for Pokémon enthusiasts."
+        </ProjectCard>
       </div>
     </section>
   );

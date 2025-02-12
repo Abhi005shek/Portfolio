@@ -16,13 +16,16 @@ function About() {
       </div>
 
       <div className="mt-6 flex justify-center gap-4">
-        <a href="#" title="Github">
+        <a href="http://github.com/Abhi005shek" target="_blank" title="Github">
           <IoLogoGithub size={"2.8rem"} color="white" />
         </a>
-        <a href="#" title="Linkedin">
+        <a href="https://www.linkedin.com/in/abhishek-vishwakarma-922493315/"
+           target="_blank"
+           title="Linkedin"
+        >
           <IoLogoLinkedin size={"2.8rem"} color="skyblue" />
         </a>
-        <a href="#" title="Email">
+        <a href="#" title="Email: abhishek005vk@gmail.com">
           <SiGmail size={`2.8rem`} color="red" />
         </a>
       </div>

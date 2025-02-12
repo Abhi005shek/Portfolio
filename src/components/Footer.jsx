@@ -7,14 +7,14 @@ function Footer() {
       <div className="text-3xl">
         <p className="flex gap-5 mb-4">
           <span>
-            <a href="http://github.com/Abhi005shek" target="blank">
+            <a href="http://github.com/Abhi005shek" target="_blank">
               <IoLogoGithub />
             </a>
           </span>
           <span>
             <a
               href="https://www.linkedin.com/in/abhishek-vishwakarma-922493315/"
-              target="blank"
+              target="_blank"
             >
               <IoLogoLinkedin />
             </a>

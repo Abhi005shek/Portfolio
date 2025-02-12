@@ -3,6 +3,8 @@ import gmovies from "./Gmovies.png";
 import fastpizza from "./fastpizza.png";
 import mplayer from "./musicplayer2.png";
 import faraway from "./faraway.png";
+import vaarlap from "./vaartalap.png"; 
+import pokeball from "./pokeball.png"; 
 
 export const projectDetails = {
   keeper: {
@@ -30,4 +32,16 @@ export const projectDetails = {
     projectlink: "https://github.com/Abhi005shek/FarAway",
     demo: "https://abhi005shek.github.io/FarAway/",
   },
+
+  vaartalap: {
+    source: vaarlap,
+    projectlink: "https://github.com/Abhi005shek/vaarta",
+    demo: "https://vaarta-two.vercel.app/"
+  },
+
+  pokeball: {
+    source: pokeball,
+    projectlink: "https://github.com/Abhi005shek/PokeBall",
+    demo: "https://github.com/Abhi005shek/PokeBall"
+  }
 };
