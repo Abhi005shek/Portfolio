@@ -1,4 +1,4 @@
-import profilepic from "../assets/images/profile.jpg";
+// import profilepic from "../assets/images/profile.jpg";
 
 function Hero() {
   return (

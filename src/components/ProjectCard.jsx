@@ -4,7 +4,7 @@ import { GoDotFill } from "react-icons/go";
 
 function ProjectCard({ children, title, source, projectlink, demo }) {
   return (
-    <div className="p-3 rounded-none border-0 border-slate-300 bg-[#0ca678] shadow-md hover:shadow-2xl">
+    <div className="p-3 rounded-md border-0 border-slate-300 bg-[#0ca678] shadow-md hover:shadow-2xl">
       <h2 className=" flex justify-between items-center text-xl  pb-4 font-bangers">
         <span className="">{title}</span>
         <span>

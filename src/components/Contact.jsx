@@ -21,6 +21,7 @@ function Contact() {
       <div className="mt-10 flex sm:justify-center">
         <form
           action=""
+          onSubmit={(e) => e.preventDefault()}
           className="font-mono flex-1 sm:flex-none shadow-xl p-4 flex flex-col gap-6 rounded-xl border-3"
         >
           <div className="text-black flex flex-col gap-3">

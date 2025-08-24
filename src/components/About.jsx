@@ -1,5 +1,6 @@
 import React from "react";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
 function About() {
@@ -10,23 +11,29 @@ function About() {
       </h1>
 
       <div className="mt-5 text-center font-mono sm:text-2xl sm:px-12">
-        Hi, My name is Abhishek Vishwakarma. I am currently pursuing a Btech
-        degree in Computer Science. I am passionate about writing clean,
-        efficient and optimized code. I wrote my First Program in C++ in 2020.
+        Hi👋, My name is Abhishek Vishwakarma. I'm a curious and driven web
+        developer with a strong grasp of modern development practices and
+        frameworks. I love bringing ideas to life—whether it's crafting sleek
+        user interfaces or building scalable digital experiences from the ground
+        up. My passion lies in creating, experimenting, and constantly learning.
       </div>
 
-      <div className="mt-6 flex justify-center gap-4">
+      <div className="mt-6 flex justify-center gap-7">
         <a href="http://github.com/Abhi005shek" target="_blank" title="Github">
-          <IoLogoGithub size={"2.8rem"} color="white" />
+          <IoLogoGithub size={"2.8rem"} className=" dark:text-white" />
         </a>
-        <a href="https://www.linkedin.com/in/abhishek-vishwakarma-922493315/"
-           target="_blank"
-           title="Linkedin"
+        <a
+          href="https://www.linkedin.com/in/abhishek-vishwakarma-922493315/"
+          target="_blank"
+          title="Linkedin"
         >
-          <IoLogoLinkedin size={"2.8rem"} color="skyblue" />
+          <IoLogoLinkedin size={"2.8rem"} className="text-sky-500 dark:text-sky-300"  />
         </a>
         <a href="#" title="Email: abhishek005vk@gmail.com">
-          <SiGmail size={`2.8rem`} color="red" />
+          <SiGmail size={`2.8rem`} className="text-red-600 dark:text-red-500" />
+        </a>
+        <a href="https://x.com/Abhishek8954161">
+          <FaXTwitter size={`2.8rem`} className="text-black dark:text-white" />
         </a>
       </div>
     </section>

@@ -9,6 +9,13 @@ function Projects() {
         Projects
       </h1>
       <div className="mt-16 mx-2 md:mx-16 grid gap-8 grid-cols-1 sm:grid-cols-3 ">
+        <ProjectCard title="Google Keep Clone" {...projectDetails.slackclone}>
+          A real-time messaging app built with Next.js and Convex, featuring
+          secure auth (credentials & OAuth), multi-workspace support,
+          channel-based chats, and personal messaging. Designed for seamless
+          collaboration with dynamic backend integration.
+        </ProjectCard>
+
         <ProjectCard title="Google Keep Clone" {...projectDetails.keeper}>
           A Google Keep website clone featuring some of the functionalities of
           Google Keep. You can create notes, make doodles and much more. Check
@@ -41,7 +48,8 @@ function Projects() {
         </ProjectCard>
 
         <ProjectCard title={"Vaartalaap"} {...projectDetails.vaartalap}>
-        Made a responsive real-time chatting app known as "Vaartalaap" using Reactjs, Material Ui and Socket.io
+          Made a responsive real-time chatting app known as "Vaartalaap" using
+          Reactjs, Material Ui and Socket.io
         </ProjectCard>
 
         <ProjectCard title="PokeBall App" {...projectDetails.pokeball}>

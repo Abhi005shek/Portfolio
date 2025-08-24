@@ -1,4 +1,5 @@
 import React from "react";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
         <p className="flex gap-5 mb-4">
           <span>
             <a href="http://github.com/Abhi005shek" target="_blank">
-              <IoLogoGithub />
+              <IoLogoGithub size={35} />
             </a>
           </span>
           <span>
@@ -16,7 +17,12 @@ function Footer() {
               href="https://www.linkedin.com/in/abhishek-vishwakarma-922493315/"
               target="_blank"
             >
-              <IoLogoLinkedin />
+              <IoLogoLinkedin size={35} />
+            </a>
+          </span>
+          <span>
+            <a href="https://x.com/Abhishek8954161">
+              <FaXTwitter size={34} className="text-black dark:text-white" />
             </a>
           </span>
         </p>

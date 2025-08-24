@@ -3,10 +3,16 @@ import gmovies from "./Gmovies.png";
 import fastpizza from "./fastpizza.png";
 import mplayer from "./musicplayer2.png";
 import faraway from "./faraway.png";
-import vaarlap from "./vaartalap.png"; 
-import pokeball from "./pokeball.png"; 
+import vaarlap from "./vaartalap.png";
+import pokeball from "./pokeball.png";
+import slackclone from "./slackclone.png";
 
 export const projectDetails = {
+  slackclone: {
+    source: slackclone,
+    projectlink: "https://github.com/Abhi005shek/slack-project",
+    demo: "https://slack-project-gamma.vercel.app/",
+  },
   keeper: {
     source: keeper,
     projectlink: "https://github.com/Abhi005shek/Keeper",
@@ -36,12 +42,12 @@ export const projectDetails = {
   vaartalap: {
     source: vaarlap,
     projectlink: "https://github.com/Abhi005shek/vaarta",
-    demo: "https://vaarta-two.vercel.app/"
+    demo: "https://vaarta-two.vercel.app/",
   },
 
   pokeball: {
     source: pokeball,
     projectlink: "https://github.com/Abhi005shek/PokeBall",
-    demo: "https://github.com/Abhi005shek/PokeBall"
-  }
+    demo: "https://github.com/Abhi005shek/PokeBall",
+  },
 };
