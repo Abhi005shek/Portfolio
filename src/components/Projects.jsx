@@ -9,7 +9,7 @@ function Projects() {
         Projects
       </h1>
       <div className="mt-16 mx-2 md:mx-16 grid gap-8 grid-cols-1 sm:grid-cols-3 ">
-        <ProjectCard title="Google Keep Clone" {...projectDetails.slackclone}>
+        <ProjectCard title="Slack Clone" {...projectDetails.slackclone}>
           A real-time messaging app built with Next.js and Convex, featuring
           secure auth (credentials & OAuth), multi-workspace support,
           channel-based chats, and personal messaging. Designed for seamless
