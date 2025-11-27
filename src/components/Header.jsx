@@ -3,6 +3,7 @@ import MobileLink from "./MobileLink";
 import moon from "../assets/images/moon-40.png";
 import sun from "../assets/images/sun-40.png";
 import { useEffect, useState } from "react";
+import { motion } from "motion/react";
 
 function Header() {
   const [mode, setMode] = useState(
@@ -31,7 +32,12 @@ function Header() {
 
       <nav className="flex">
         <MobileLink mode={mode} setMode={setMode} />
-        <ul className="hidden md:flex items-center gap-10 font-semibold">
+        <motion.ul
+          initial={{ opacity: 0}} // Starts 50px below and transparent
+          animate={{ opacity: 1 }}
+          transition={{duration: 0.4}}
+          className="hidden md:flex items-center gap-10 font-semibold"
+        >
           <NavLink href="home">Home</NavLink>
           <NavLink href="about">About Me</NavLink>
           <NavLink href="skills">Skills</NavLink>
@@ -49,7 +55,7 @@ function Header() {
               className="themeIcon w-8 h-8 rounded-full"
             ></img>
           </li>
-        </ul>
+        </motion.ul>
       </nav>
     </div>
   );

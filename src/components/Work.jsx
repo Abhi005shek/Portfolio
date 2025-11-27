@@ -14,32 +14,49 @@ const childVariants = {
   visible: { opacity: 1, y: 0 },
 };
 
-function About() {
+function Work() {
   const ref = useRef(null);
   const isInView = useInView(ref, { threshold: 0.5, once: true });
 
   return (
     <motion.section
-    ref={ref}
+      ref={ref}
       variants={containerVariants}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       id="about"
       className="px-6 sm:px-12 min-h-[90vh]"
     >
-      <motion.h1 variants={childVariants} className="text-center font-bangers text-4xl sm:text-6xl text-primary">
-        About Me
+      <motion.h1
+        variants={childVariants}
+        className="text-center font-bangers text-4xl sm:text-6xl text-primary"
+      >
+        Work Experience
       </motion.h1>
 
-      <motion.div variants={childVariants} className="mt-5 text-center font-mono sm:text-2xl sm:px-12">
-        Hi👋, My name is Abhishek Vishwakarma. I'm a curious and driven web
-        developer with a strong grasp of modern development practices and
-        frameworks. I love bringing ideas to life—whether it's crafting sleek
-        user interfaces or building scalable digital experiences from the ground
-        up. My passion lies in creating, experimenting, and constantly learning.
+      <motion.div
+        variants={childVariants}
+        className="mt-5 text-center font-mono sm:text-2xl sm:px-12"
+      >
+        <div className="lg:flex justify-between">
+          <h2 className="font-bold">Associate Software Developer</h2>
+          <h4 className="font-[550] italic">
+            Mittal Software Labs (Sept 2024 - Feb 2025)
+          </h4>
+        </div>
+        <p className="mt-2">
+          Developed and maintained web applications. Built and optimized backend
+          services and APIs. Managed databases, ensuring data integrity and
+          security. Collaborated with cross-functional teams to gather
+          requirements and implement features. Conducted code reviews, debugged
+          issues, and performed testing
+        </p>
       </motion.div>
 
-      <motion.div variants={childVariants} className="mt-6 flex justify-center gap-7">
+      {/* <motion.div
+        variants={childVariants}
+        className="mt-6 flex justify-center gap-7"
+      >
         <a href="http://github.com/Abhi005shek" target="_blank" title="Github">
           <IoLogoGithub size={"2.8rem"} className=" dark:text-white" />
         </a>
@@ -59,9 +76,9 @@ function About() {
         <a href="https://x.com/Abhishek8954161">
           <FaXTwitter size={`2.8rem`} className="text-black dark:text-white" />
         </a>
-      </motion.div>
+      </motion.div> */}
     </motion.section>
   );
 }
 
-export default About;
+export default Work;

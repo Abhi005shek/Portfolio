@@ -5,6 +5,7 @@ import { HiXMark } from "react-icons/hi2";
 import cursor from "../assets/images/hand-cursor.svg";
 import moon from "../assets/images/moon-40.png";
 import sun from "../assets/images/sun-40.png";
+import {motion} from "motion/react"
 
 function MobileLink({ mode, setMode }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,11 @@ function MobileLink({ mode, setMode }) {
   // }, [isOpen]);
 
   return (
-    <div className="block md:hidden">
+    <motion.div 
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    transition={{duration: 0.4}}
+    className="block md:hidden">
       <div
         onClick={(e) => {
           setIsOpen(true);
@@ -58,7 +63,7 @@ function MobileLink({ mode, setMode }) {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

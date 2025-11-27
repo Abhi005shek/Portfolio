@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Work from "./components/Work";
 
 // #2522323
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Work/>
       <Skills />
       <Projects />
       <Contact />

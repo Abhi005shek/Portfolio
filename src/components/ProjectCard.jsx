@@ -1,10 +1,11 @@
 import { HiArrowRight } from "react-icons/hi";
 import { IoLogoGithub } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
+import { motion } from "motion/react";
 
-function ProjectCard({ children, title, source, projectlink, demo }) {
+function ProjectCard({ children, title, source, projectlink, demo, variants }) {
   return (
-    <div className="p-3 rounded-md border-0 border-slate-300 bg-[#0ca678] shadow-md hover:shadow-2xl">
+    <motion.div variants={variants} className="p-3 rounded-md border-0 border-slate-300 bg-[#0ca678] shadow-md hover:shadow-2xl">
       <h2 className=" flex justify-between items-center text-xl  pb-4 font-bangers">
         <span className="">{title}</span>
         <span>
@@ -44,7 +45,7 @@ function ProjectCard({ children, title, source, projectlink, demo }) {
           </a>
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
