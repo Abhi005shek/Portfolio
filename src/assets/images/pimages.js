@@ -6,8 +6,14 @@ import faraway from "./faraway.png";
 import vaarlap from "./vaartalap.png";
 import pokeball from "./pokeball.png";
 import slackclone from "./slackclone.png";
+import rugmania from "./rugmania.png";
 
 export const projectDetails = {
+  rugmania: {
+    source: rugmania,
+    projectlink: "https://github.com/sahilg28/RugMania",
+    demo: "https://rugmania.vercel.app/",
+  },
   slackclone: {
     source: slackclone,
     projectlink: "https://github.com/Abhi005shek/slack-project",
